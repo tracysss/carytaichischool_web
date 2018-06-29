@@ -27,6 +27,20 @@ a {
   color: blue;
 }
 
+h1 {
+  font-size: 28px;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  font-size: 26px;
+  margin: 0;
+  padding: 0;
+}
+h3 {
+}
+
+
 .top-header {
   background-color: #ed1c24;
   border: 1px solid black;
@@ -50,19 +64,11 @@ a {
   float: left;
 }
 
-h1 {
-  font-size: 28px;
-  margin: 0;
-  padding: 0;
+@media screen and (max-width: 800px) {
+  .top-header ul {
+    display: none !important;
+  }
 }
-h2 {
-  font-size: 26px;
-  margin: 0;
-  padding: 0;
-}
-h3 {
-}
-
 .top-header ul {
   position: absolute;
   top: 0;
